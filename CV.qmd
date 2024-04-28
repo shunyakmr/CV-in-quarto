@@ -1,0 +1,87 @@
+---
+author: SHUNYA KIMURA
+title: PhD Researcher
+format:
+  classic-cv-pdf: default
+# cvfooter:
+#   left: "mr.schochastics.net"
+#   right: "github.com/schochastics"
+cvcolor: 58748F #without `#`
+# cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
+cvmeta:
+  - title: Status
+    left: PhD Researcher at the Geospatial Analytics and Computing Group, University College London
+    right: London, United Kingdom
+  - title: Field
+    left: Social Data Science, Spatial Analysis
+    right: "+447399980267"
+  - title: Techs
+    left: R, HiveQL, BigQuery SQL, Python, Git, Quarto
+    right: kimushun618@gmail.com
+execute:
+  echo: false
+---
+
+```{r}
+#| label: cvevents
+cvevents <- function(tbl, when, what, where, details) {
+
+    command_start <- "\\cvevent"
+
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}", 
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}")
+    
+    tbl[[details]] <- sapply(tbl[[details]], function(x) paste0("{", x, "}", collapse = ","))
+    res <- paste0(res, "{",tbl[[details]],"}")
+
+    cat(res, sep = "\n")
+}
+```
+
+# EDUCATION
+
+```{r}
+#| label: education
+#| output: asis
+tibble::tribble(
+    ~degree, ~uni, ~loc, ~dates, ~details,
+    "PhD in Human Geography", "University College London", "London, UK", "Sep. 2021 - Present"
+    , c("Project Title: Unveiling At-Risk Neighbourhoods: A Typology of Online Gambling Behavior in Great Britain Using Large-Scale Consumer Data.", "Funding: Bloomsbury and East London Doctoral Training Partnership (UBEL DTP) – Economic and Social Research Council (ESRC) Studentship; co-funded by GambleAware."), 
+    
+    "BA Geography with Quantitative Methods (1st Class)", "University College London", "London, UK", "Sep. 2018 - Aug. 2021"
+    , c("Relevant Modules: Introduction to Quantitative Research Methods (73\\%), Geocomputation (68.5\\%), Data Analysis (74.5\\%), Mining Social and Geographic Datasets with Python (80.9\\%), etc..", "Independent Work: Dissertation (74\\%) employed GPS-data analysis to empirically investigate the usage of dockless e-bikeshare system in London; conducted several spatial and statistical analysis techniques, including DBSCAN, KDE clustering and multilevel negative binomial regression; nominated for the 2021 Transport Geography Research Group Undergraduate Dissertation prize.", "Advanced Data Analysis: Have experience with analysing randomized experiments; observational causal inference methods; quasi-experimental methods; and with panel data methods.")
+) |>
+    cvevents(when = "dates", what = "degree", where = "uni", details = "details")
+```
+
+# CONFERENCES AND TALKS
+
+```{r }
+#| label: talks
+#| output: asis
+tibble::tribble(
+    ~talk, ~format, ~loc, ~dates, ~details,
+    "Bristol Hub for Gambling Harms Research Joint Hybrid Seminar", "Oral presentation", "Bristol, UK", "Mar. 2024"
+    , c("Title: Unveiling Online Gambling Behaviour: A Descriptive Analysis of Consumer Data. The recording is available on https://tinyurl.com/5p4urkb6."),
+    
+    "GIS Research UK (GISRUK)", "Oral presentation", "Glasgow, UK", "Apr. 2023"
+    , c("Kimura, S., Van Dijk, J.T., and Longley, P.A. The Use of Consumer Data to Explore Geographic and Social Variations in Online Gambling. Proceedings of the 31st Conference of GIS Research UK (GISRUK). Glasgow: University of Glasgow. doi: 10.5281/zenodo.7828456."), 
+    
+    "GIS Research UK (GISRUK)", "Co-author; Winner of the Best Paper Award", "Glasgow, UK", "Apr. 2023"
+    , c("Todd, J., Kimura S., O'Brien, O., and Cheshire, J. Dominant Trip Purposes within a Dockless Bicycle Sharing System in London. Proceedings of the 31st Conference of GIS Research UK (GISRUK), Glasgow: University of Glasgow. doi: 10.5281/zenodo.7828473."),
+   
+   #  "GambleAware Annual Conference 2022", "Poster presentation", "London, UK", "Dec. 2022",
+   #  c(""),
+   # 
+   "CDRC Data Partner Forum 2022 Saïd Business School", "Oral presentation", "Oxford, UK", "Nov. 2022",
+   c(""),
+   
+    "GIS Research UK (GISRUK)", "Oral presentation; Winner of the CASA Prize for Best Paper in Spatial Analysis", "Liverpool, UK", "Apr. 2022"
+   , c("Kimura, S., Longley, P. A., and Van Dijk, J.T. Exploring the spatial disparities in gambling risk and vulnerability. Proceedings of the 30th Conference of GIS Research UK (GISRUK). Liverpool: University of Liverpool. doi: 10.5281/zenodo.6407146.")
+) |>
+    cvevents(when = "dates", what = "talk", where = "loc", details = "details")
+```
+
+# PROFESSIONAL EXPERIENCE
