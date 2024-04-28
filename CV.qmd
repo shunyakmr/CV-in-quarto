@@ -60,7 +60,7 @@ tibble::tribble(
 ```
 
 
-# CONFERENCES AND TALKS
+# CONFERENCES AND TALKS   
 
 ```{r }
 #| label: talks
