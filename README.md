@@ -1,2 +1,2 @@
 # CV
-My Curriculum Vitae
+My Curriculum vitae organised in Quarto
