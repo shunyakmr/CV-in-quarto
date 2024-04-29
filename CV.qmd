@@ -95,7 +95,7 @@ tibble::tribble(
 
 ```{r}
 #| label: grants
-#| output: asis
+# | output: asis
 tibble::tribble(
     ~grant, ~amount, ~loc, ~dates, ~details,
     "UBEL DTP International Institutional Visit Scheme", "GBP 1,200", "Kyoto, Japan", "Sep. 2021 - Present"
@@ -146,4 +146,4 @@ tibble::tribble(
 
 # LANGUAGE PROFICIENCY
 
-\-   **Japanese:** Native proficiency; **English:** Full professional proficiency; and **Arabic:** Beginner proficiency
+\- **Japanese:** Native proficiency; **English:** Full professional proficiency; **Arabic:** Beginner proficiency
