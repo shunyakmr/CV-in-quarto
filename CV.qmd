@@ -111,17 +111,20 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~role, ~org, ~loc, ~dates, ~details,
-    "Senior Postgraduate Teaching Assistant", "University College London", "London, UK", "Jan. 2022 – Apr. 2023"
-    , c(""),
+    "Senior Postgraduate Teaching Assistant", "University College London", "London, UK", "Jan. 2022 - Apr. 2023"
+    , c("\\textbf{Teaching:} Lead seminars and held academic support and feedback hours for the following modules: (1) Geography in the Field I and (2) II; (3) Geocomputation; (4) Introduction to Quantitative Research Methods; and (5) Data Analysis"),
 
-    "Postgraduate Teaching Assistant", "Queen Mary University London", "London, UK", "Nov. 2022 – Jan. 2023"
-    , c(""),
+    "Postgraduate Teaching Assistant", "Queen Mary University London", "London, UK", "Nov. 2022 - Jan. 2023"
+    , c("\\textbf{Teaching:} Lead seminars for the following module: Introduction to Research Methods"),
 
     "Data Analyst Intern", "BBC", "London, UK", "Aug. 2021 - Sep. 2021"
-    , c(""),
+    , c("Utilised R and Python to analyze unstructured data from social media and web scraping, generating business insights.",
+        "Rapidly acquired and implemented new skills within a tight deadline.",
+        "Presented findings to various teams, providing key benchmarks for assessing the success of BBC’s social media platforms."),
 
-   "Data Analyst Intern", "Climate Policy Initiative", "London, UK", "Jun. 2020 - Jul. 2020",
-   c("")
+   "Data Analyst Intern", "Climate Policy Initiative", "London, UK", "Jun. 2020 - Jul. 2020"
+   ,c("Assisted in the creation of \\href{https://www.climatepolicyinitiative.org/netzerofinancetracker/methodology.pdf}{The Net Zero Finance Tracker} through data gathering and dashboard design. This tool provides a comprehensive assessment of the alignment between public and private finance and the Paris Agreement goals.",
+      "Quickly adapted and learned new concepts in climate finance, showing flexibility in an unfamiliar domain.")
 ) |>
     cvevents(when = "dates", what = "role", where = "org", details = "details")
 ```
@@ -134,11 +137,12 @@ tibble::tribble(
 tibble::tribble(
     ~event, ~host, ~loc, ~dates, ~details,
     "Introduction to Bayesian Inference and Modelling", "UCL Social Data Institute", "London, UK", "Jul. 2023"
-    , c("Attended a four-day intensive course on Bayesian inference covering the basics of Bayesian inference using RStudio and Stan. Taught by Dr Anwar Musah.",
-        "Learnt how to perform spatial risk prediction for areal data as well as quantify levels of uncertainty using exceedance probabilities."),
+    , c("Participated in a four-day intensive course on Bayesian inference. The course covered the fundamentals of Bayesian statistics using RStudio and Stan. Taught by Dr Anwar Musah.",
+        "Acquired skills in performing spatial risk prediction and quantifying uncertainty levels using exceedance probabilities for aerial data, which are currently employed in my PhD project."),
 
-    "Advanced Topics in Social and Geographic Data Sciences", "UCL Geography", "London, UK", "Jan. 2022 - Mar. 2022"
-    , c("Audited a MSc course on. Taught by Dr Anwar Musah and Dr Stephen Law.")
+    "Advanced Topics in Social \\& Geographic Data Sciences", "UCL Geography", "London, UK", "Jan. 2022 - Mar. 2022"
+    , c("Audited a module in the Social \\& Geographic Data Science MSc course. Led by Dr Stephen Law.",
+        "Revised topics on statistical learning, including Deep Learning, Convolutional Neural Networks, and GeoAI.")
 ) |>
     cvevents(when = "dates", what = "event", where = "host", details = "details")
 ```
