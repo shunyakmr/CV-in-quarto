@@ -59,7 +59,7 @@
 %	PAGE LAYOUT  DEFINITIONS
 %----------------------------------------------------------------------------------------
 \usepackage[a4paper]{geometry}		
-\geometry{top=1.25cm, bottom=-.1cm, left=1.5cm, right=1.5cm} 	
+\geometry{top=1.25cm, bottom=1.25cm, left=1.5cm, right=1.5cm} 	
 
 \usepackage{fancyhdr}				
 \pagestyle{fancy}
@@ -177,7 +177,7 @@
 \textcolor{softcol}{\hrule}
 \vspace{6pt}
 \foreach \desc in {#4}{
-	-  \desc\\[3pt]
+	-  \desc\\[6pt]
 }
 	
 \vspace{3pt}
@@ -226,17 +226,18 @@ $endfor$
 \vspace{-6pt}
 $body$
 
+
 %--------------------------------------------------------------------------------------------------
 %	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
 %--------------------------------------------------------------------------------------------------
-\pagestyle{plain} % Removes fancy header and footer
-\pagenumbering{arabic} % Arabic numerals for page numbers
-
-% Centering the page number at the bottom
-\vspace*{\fill}
-\begin{center}
-    \textcolor{sectcol}{\thepage}
-\end{center}
+% \pagestyle{plain} % Removes fancy header and footer
+% \pagenumbering{arabic} % Arabic numerals for page numbers
+% 
+% % Centering the page number at the bottom
+% \vspace*{\fill}
+% \begin{center}
+%     \textcolor{sectcol}{\thepage}
+% \end{center}
 
 \end{document}
 

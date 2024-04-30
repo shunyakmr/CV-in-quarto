@@ -48,11 +48,11 @@ cvevents <- function(tbl, when, what, where, details) {
 tibble::tribble(
     ~degree, ~uni, ~loc, ~dates, ~details,
     "MPhil/PhD Human Geography", "University College London", "London, UK", "Sep. 2021 - Present"
-    , c("\\textbf{Project:} \\textit{Unveiling At-Risk Neighbourhoods: A Typology of Online Gambling Behavior in Great Britain Using Large-Scale Consumer Data}; supervised by Professor Paul Longley and Dr Justin Van Dijk",
+    , c("\\textbf{Project:} \\textit{Unveiling At-Risk Neighbourhoods: A Typology of Online Gambling Behavior in Great Britain Using Large-Scale Consumer Data}; supervised by Professor Paul Longley and Dr Justin Van Dijk.",
         "\\textbf{Funding:} Bloomsbury and East London Doctoral Training Partnership (UBEL DTP) - Economic and Social Research Council (ESRC) Studentship; co-funded by GambleAware.",
         "\\textbf{Mining Real-World Data:}: In collaboration with our industry partner, I work with novel behavioral datasets distributed across their data warehouse system. External data linkages are conducted while adhering to appropriate procedures for information governance. [Technologies: BigQuery, Hive, GoogleSQL, HiveQL, R, GitLab, etc.]",
-        "\\textbf{Unsupervised Machine Learning:}: Identifying at-risk social and geographic groups of customers using combination of dimensionality reduction and clustering methods. [Libraries: arrow, datatable, tidyr, stats, factoextra, motifcluster, sf, ggplot2, etc.]",
-        "\\textbf{Bayesian Spatial Model:}: Quantifying and mapping small-area geographic patterns of risk, and assessing their relationships with potential risk factors. [Libraries: INLA, rstan, spdep, sf, ggplot2, etc.]"
+        "\\textbf{Unsupervised Machine Learning:} Identifying at-risk social and geographic groups of customers using combination of dimensionality reduction and clustering methods. [Libraries: arrow, datatable, tidyr, stats, factoextra, motifcluster, sf, ggplot2, etc.]",
+        "\\textbf{Bayesian Spatial Model:} Quantifying and mapping small-area geographic patterns of risk, and assessing their relationships with potential risk factors. [Libraries: INLA, rstan, spdep, sf, ggplot2, etc.]"
         ),
 
     "BA Geography with Quantitative Methods (1st Class)", "University College London", "London, UK", "Sep. 2018 - Aug. 2021"
@@ -95,12 +95,11 @@ tibble::tribble(
 
 ```{r}
 #| label: grants
-# | output: asis
+#| output: asis
 tibble::tribble(
     ~grant, ~amount, ~loc, ~dates, ~details,
     "UBEL DTP International Institutional Visit Scheme", "GBP 1,200", "Kyoto, Japan", "Sep. 2021 - Present"
-    , c("A travel grant for a 35-day visiting research period at the Institute of Disaster Mitigation for Urban Cultural Heritage, Ritsumeikan University at Kyoto, Japan. Invited by Professor Keiji Yano."
-        )
+    , c("A travel grant for a 35-day visiting research period at the Institute of Disaster Mitigation for Urban Cultural Heritage, Ritsumeikan University at Kyoto, Japan. Invited by Professor Keiji Yano.")
 ) |>
     cvevents(when = "dates", what = "grant", where = "amount", details = "details")
 ```
@@ -135,15 +134,15 @@ tibble::tribble(
 tibble::tribble(
     ~event, ~host, ~loc, ~dates, ~details,
     "Introduction to Bayesian Inference and Modelling", "UCL Social Data Institute", "London, UK", "Jul. 2023"
-    , c("A four-day intensive course on Bayesian inference covering the basics of Bayesian inference using RStudio and Stan. Taught by Dr. Anwar Musah.",
+    , c("Attended a four-day intensive course on Bayesian inference covering the basics of Bayesian inference using RStudio and Stan. Taught by Dr Anwar Musah.",
         "Learnt how to perform spatial risk prediction for areal data as well as quantify levels of uncertainty using exceedance probabilities."),
 
-    "Advanced Topics in Social and Geographic Data Sciences", "UCL Geography", "London, UK", "Apr. 2023"
-    , c("A MSc course on. Taought by Dr. Anwar Musah and Dr. Stephen Law.")
+    "Advanced Topics in Social and Geographic Data Sciences", "UCL Geography", "London, UK", "Jan. 2022 - Mar. 2022"
+    , c("Audited a MSc course on. Taught by Dr Anwar Musah and Dr Stephen Law.")
 ) |>
     cvevents(when = "dates", what = "event", where = "host", details = "details")
 ```
 
 # LANGUAGE PROFICIENCY
 
-\- **Japanese:** Native proficiency; **English:** Full professional proficiency; **Arabic:** Beginner proficiency
+\- **Japanese:** Native proficiency; **English:** Full professional proficiency; and **Arabic:** Beginner proficiency.
