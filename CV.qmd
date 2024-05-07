@@ -50,15 +50,15 @@ tibble::tribble(
     "MPhil/PhD Human Geography", "University College London", "London, UK", "Sep. 2021 - Present"
     , c("\\textbf{Project:} \\textit{Unveiling At-Risk Neighbourhoods: A Typology of Online Gambling Behavior in Great Britain Using Large-Scale Consumer Data}; supervised by Professor Paul Longley and Dr Justin Van Dijk.",
         "\\textbf{Funding:} Bloomsbury and East London Doctoral Training Partnership (UBEL DTP) - Economic and Social Research Council (ESRC) Studentship; co-funded by GambleAware.",
-        "\\textbf{Mining Real-World Data:}: In collaboration with our industry partner, I work with novel behavioral datasets distributed across their data warehouse system. External data linkages are conducted while adhering to appropriate procedures for information governance. [Technologies: BigQuery, Hive, GoogleSQL, HiveQL, R, GitLab, etc.]",
-        "\\textbf{Unsupervised Machine Learning:} Identifying at-risk social and geographic groups of customers using combination of dimensionality reduction and clustering methods. [Libraries: arrow, datatable, tidyr, stats, factoextra, motifcluster, sf, ggplot2, etc.]",
-        "\\textbf{Bayesian Spatial Model:} Quantifying and mapping small-area geographic patterns of risk, and assessing their relationships with potential risk factors. [Libraries: INLA, rstan, spdep, sf, ggplot2, etc.]"
+        "\\textbf{Mining Real-World Data:} In collaboration with our industry partner, I work with novel behavioral datasets distributed across their data warehouse system. External data linkages are conducted while adhering to appropriate procedures for information governance. [Technologies: BigQuery, Hive, GoogleSQL, HiveQL, R, GitLab, etc.]",
+        "\\textbf{Unsupervised Machine Learning:} Identifying vulnerable socioeconomic and geographic groups of customers using a combination of dimensionality reduction and clustering methods. [Libraries: arrow, datatable, tidyr, stats, factoextra, motifcluster, sf, ggplot2, etc.]",
+        "\\textbf{Bayesian Spatial Model:} Quantifying and mapping high resolution geographic patterns of risk, and assessing their relationships with potential risk factors. [Libraries: INLA, rstan, spdep, sf, ggplot2, etc.]"
         ),
 
     "BA Geography with Quantitative Methods (1st Class)", "University College London", "London, UK", "Sep. 2018 - Aug. 2021"
-    , c("\\textbf{Relevant Modules:} Introduction to Quantitative Research Methods (73\\%), Geocomputation (68.5\\%), Data Analysis (74.5\\%), Mining Social and Geographic Datasets with Python (80.9\\%), etc..", 
+    , c("\\textbf{Relevant Modules:} Introduction to Quantitative Research Methods (73\\%), Geocomputation (68.5\\%), Data Analysis (74.5\\%), Mining Social and Geographic Datasets with Python (80.9\\%)", 
         "\\textbf{Independent Work:} Dissertation (74\\%) utilised GPS-data analysis to empirically investigate the usage of a dockless e-bike share system in London. Several spatial and statistical analyses were conducted, including DBSCAN, KDE clustering, and multilevel negative binomial regression. This work was nominated for the 2021 Transport Geography Research Group Undergraduate Dissertation Prize.", 
-        "\\textbf{Advanced Data Analysis}: Have experience with analysing randomised experiments, observational causal inference methods, quasi-experimental methods and with panel data methods.")
+        "\\textbf{Advanced Data Analysis:} Garnered experience with analysing randomised experiments, observational causal inference methods, quasi-experimental methods and with panel data methods.")
 ) |>
     cvevents(when = "dates", what = "degree", where = "uni", details = "details")
 ```
@@ -118,7 +118,7 @@ tibble::tribble(
     , c("\\textbf{Teaching:} Lead seminars for the following module: Introduction to Research Methods"),
 
     "Data Analyst Intern", "BBC", "London, UK", "Aug. 2021 - Sep. 2021"
-    , c("Utilised R and Python to analyze unstructured data from social media and web scraping, generating business insights.",
+    , c("Generated actionable business insights by utilising R and Python to conduct analysis on unstructured data sourced from web scraping and social media pages.",
         "Rapidly acquired and implemented new skills within a tight deadline.",
         "Presented findings to various teams, providing key benchmarks for assessing the success of BBC’s social media platforms."),
 
