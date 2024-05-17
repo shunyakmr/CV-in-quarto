@@ -112,10 +112,10 @@ tibble::tribble(
 tibble::tribble(
     ~role, ~org, ~loc, ~dates, ~details,
     "Senior Postgraduate Teaching Assistant", "University College London", "London, UK", "Jan. 2022 - Apr. 2023"
-    , c("\\textbf{Teaching:} Lead seminars and held academic support and feedback hours for the following modules: (1) Geography in the Field I and (2) II; (3) Geocomputation; (4) Introduction to Quantitative Research Methods; and (5) Data Analysis"),
+    , c("\\textbf{Teaching:} Led seminars and held academic support and feedback hours for the following modules: (1) Geography in the Field I and (2) II; (3) Geocomputation; (4) Introduction to Quantitative Research Methods; and (5) Data Analysis"),
 
     "Postgraduate Teaching Assistant", "Queen Mary University London", "London, UK", "Nov. 2022 - Jan. 2023"
-    , c("\\textbf{Teaching:} Lead seminars for the following module: Introduction to Research Methods"),
+    , c("\\textbf{Teaching:} Led seminars for the following module: Introduction to Research Methods"),
 
     "Data Analyst Intern", "BBC", "London, UK", "Aug. 2021 - Sep. 2021"
     , c("Generated actionable business insights by utilising R and Python to conduct analysis on unstructured data sourced from web scraping and social media pages.",
