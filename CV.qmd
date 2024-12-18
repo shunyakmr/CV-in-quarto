@@ -47,7 +47,7 @@ cvevents <- function(tbl, when, what, where, details) {
 #| output: asis
 tibble::tribble(
     ~degree, ~uni, ~loc, ~dates, ~details,
-    "MPhil/PhD Human Geography", "University College London", "London, UK", "Sep. 2021 - Present"
+    "MPhil/PhD Social Data Science", "University College London", "London, UK", "Sep. 2021 - Present"
     , c("\\textbf{Project:} \\textit{Typologies of Online Gambling Behaviour in Great Britain: Insights from Geographic Smart Data Analysis}; supervised by Professor Paul Longley and Dr Justin Van Dijk.",
         "\\textbf{Funding:} Bloomsbury and East London Doctoral Training Partnership (UBEL DTP) - Economic and Social Research Council (ESRC) Studentship; co-funded by GambleAware.",
         "\\textbf{Data Mining:} In collaboration with our industry partner, I work with consumer datasets distributed across their data warehouse system. External data linkages are conducted while adhering to appropriate procedures for information governance. [Technologies: Apache Hive, Google Bigquery, R, GitLab, etc.]",
