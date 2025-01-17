@@ -1,47 +1,47 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.1)  25 APR 2024 03:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.16)  16 JAN 2025 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"C:/Users/shunya.kimura/OneDrive - University College London/Applications/CVs/classic-cv/_extensions/schochastics/classic-cv/template.tex"
-(c:/Users/shunya.kimura/OneDrive - University College London/Applications/CVs/classic-cv/_extensions/schochastics/classic-cv/template.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-10-23>
+**"C:/Users/shunya.kimura/OneDrive - University College London/Applications/CVs/CV-in-quarto/_extensions/schochastics/classic-cv/template.tex"
+(c:/Users/shunya.kimura/OneDrive - University College London/Applications/CVs/CV-in-quarto/_extensions/schochastics/classic-cv/template.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
 (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
 (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
 ) (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 ) (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count194
-\calc@Bcount=\count195
-\calc@Adimen=\dimen141
-\calc@Bdimen=\dimen142
-\calc@Askip=\skip50
-\calc@Bskip=\skip51
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count196
-\calc@Cskip=\skip52
+\calc@Ccount=\count272
+\calc@Cskip=\skip53
 ) (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (c:/Users/shunya.kimura/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
@@ -58,13 +58,13 @@ Enter file name:
 l.49 ^^M
          
 Here is how much of TeX's memory you used:
- 488 strings out of 476337
- 8328 string characters out of 5796289
- 1923036 words of memory out of 5000000
- 22392 multiletter control sequences out of 15000+600000
- 558069 words of font info for 36 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 42i,0n,51p,315b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 494 strings out of 475116
+ 8335 string characters out of 5761433
+ 387184 words of memory out of 5000000
+ 23572 multiletter control sequences out of 15000+600000
+ 558837 words of font info for 36 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 42i,0n,51p,317b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
 

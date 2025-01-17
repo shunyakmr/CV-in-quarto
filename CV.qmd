@@ -10,13 +10,13 @@ cvcolor: 58748F #without `#`
 # cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvmeta:
   - title: Status
-    left: PhD Researcher at the Geospatial Analytics and Computing Group, University College London
+    left: PhD Researcher at University College London
     right: London, UK
   - title: Field
     left: Data Mining, Machine Learning, Spatial Statistics
     right: "+447399980267"
   - title: Techs
-    left: R, Python, Apache Hive, Google BigQuery, Git, Quarto
+    left: R, Python, SQL, Apache Hive, Google BigQuery, Git
     right: kimushun618@gmail.com
 execute:
   echo: false
@@ -47,17 +47,23 @@ cvevents <- function(tbl, when, what, where, details) {
 #| output: asis
 tibble::tribble(
     ~degree, ~uni, ~loc, ~dates, ~details,
-    "MPhil/PhD Social Data Science", "University College London", "London, UK", "Sep. 2021 - Present"
+    "MPhil/PhD Social Data Science", "University College London", "London, UK", "Sep. 2021 - Exp Apr. 2025"
     , c("\\textbf{Project:} \\textit{Typologies of Online Gambling Behaviour in Great Britain: Insights from Geographic Smart Data Analysis}; supervised by Professor Paul Longley and Dr Justin Van Dijk.",
-        "\\textbf{Funding:} Bloomsbury and East London Doctoral Training Partnership (UBEL DTP) - Economic and Social Research Council (ESRC) Studentship; co-funded by GambleAware.",
-        "\\textbf{Data Mining:} In collaboration with our industry partner, I work with consumer datasets distributed across their data warehouse system. External data linkages are conducted while adhering to appropriate procedures for information governance. [Technologies: Apache Hive, Google Bigquery, R, GitLab, etc.]",
+        
+        "\\textbf{Funding:} Economic and Social Research Council (ESRC) Studentship; co-funded by GambleAware.",
+        
+        "\\textbf{Data Mining:} In collaboration with our industry partner, I work with consumer datasets distributed across their data warehouse system. External data linkages are conducted while adhering to appropriate procedures for information governance. [Technologies: SQL, Apache Hive, Google Bigquery, R, GitLab, etc.]",
+        
         "\\textbf{Feature Engineering:} Designed novel behavioural markers to facilitate cross-customer comparisons, providing enhanced analytical insights into how users engage with the platform. [Libraries: arrow, datatable, tidyr, lubridate, sf, ggplot2, etc.]",
-        "\\textbf{Unsupervised Machine Learning:} Segmented customers into 11 distinct groups based on their revealed behaviour by applying dimensionality reduction techniques combined with clustering algorithms. [Libraries: arrow, datatable, tidyr, stats, factoextra, motifcluster, sf, ggplot2, etc.]"
+        
+        "\\textbf{Unsupervised Machine Learning:} Segmented customers into 12 distinct groups based on their revealed behaviour by applying dimensionality reduction techniques combined with clustering algorithms. [Libraries: arrow, datatable, tidyr, stats, factoextra, motifcluster, sf, ggplot2, etc.]"
         ),
 
     "BA Geography with Quantitative Methods (1st Class)", "University College London", "London, UK", "Sep. 2018 - Aug. 2021"
     , c("\\textbf{Relevant Modules:} Introduction to Quantitative Research Methods (73\\%), Geocomputation (68.5\\%), Data Analysis (74.5\\%), Mining Social and Geographic Datasets with Python (80.9\\%)", 
+        
         "\\textbf{Independent Work:} Dissertation (74\\%) utilised mobility data to conduct an empirial investigation into the usage of the JUMP (now LIME) e-bike share system in London. Several spatial and statistical analyses were conducted, including DBSCAN, KDE clustering and multilevel negative binomial regression. This work was nominated for the 2021 Transport Geography Research Group Undergraduate Dissertation Prize.", 
+        
         "\\textbf{Advanced Data Analysis:} Garnered experience with analysing randomised experiments, observational causal inference methods, quasi-experimental methods and with panel data methods.")
 ) |>
     cvevents(when = "dates", what = "degree", where = "uni", details = "details")
@@ -98,7 +104,7 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~grant, ~amount, ~loc, ~dates, ~details,
-    "UBEL DTP International Institutional Visit Scheme", "GBP 1,200", "Kyoto, Japan", "Sep. 2021 - Present"
+    "UBEL DTP International Institutional Visit Scheme", "GBP 1,200", "Kyoto, Japan", "Dec. 2023 - Jan. 2024"
     , c("A travel grant for a 35-day visiting research period at the Institute of Disaster Mitigation for Urban Cultural Heritage, Ritsumeikan University at Kyoto, Japan. Invited by Professor Keiji Yano.")
 ) |>
     cvevents(when = "dates", what = "grant", where = "amount", details = "details")
@@ -111,20 +117,23 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~role, ~org, ~loc, ~dates, ~details,
+    
+    "Research Assistant", "University College London", "London, UK", "Jan. 2025 - Exp Mar. 2025"
+    , c("\\textbf{Safeguarding:} Leading the design and development of a new data product titled: \\textit{An Output Area Level Taxonomy of Online Gambling Behaviour in Great Britain} for the Geographic Data Service (GeoDS), with a focus on implementing rigorous disclosure control measures to protect commercially sensitive data.",
+        "\\textbf{Collaboration:} Partnering with an industry leader and a UCL researcher to deliver impactful insights.",
+        "\\textbf{Innovation:} Utilising Bayesian modelling to enhance the prediction, accuracy and applicability of the data product."),
+    
     "Senior Postgraduate Teaching Assistant", "University College London", "London, UK", "Jan. 2022 - Apr. 2023"
     , c("\\textbf{Teaching:} Led seminars and held academic support and feedback hours for the following modules: (1) Geography in the Field I and (2) II; (3) Geocomputation; (4) Introduction to Quantitative Research Methods; and (5) Data Analysis"),
 
     "Postgraduate Teaching Assistant", "Queen Mary University London", "London, UK", "Nov. 2022 - Jan. 2023"
-    , c("\\textbf{Teaching:} Led seminars for the following module: Introduction to Research Methods"),
+    , c("\\textbf{Teaching:} Led seminars for a module: Introduction to Research Methods"),
 
     "Data Analyst Intern", "BBC", "London, UK", "Aug. 2021 - Sep. 2021"
     , c("Generated actionable business insights by utilising R and Python to conduct analysis on unstructured data sourced from web scraping and social media pages.",
         "Rapidly acquired and implemented new skills within a tight deadline.",
-        "Presented findings to various teams, providing key benchmarks for assessing the success of BBC’s social media platforms."),
-
-   "Data Analyst Intern", "Climate Policy Initiative", "London, UK", "Jun. 2020 - Jul. 2020"
-   ,c("Assisted in the creation of \\href{https://www.climatepolicyinitiative.org/netzerofinancetracker/methodology.pdf}{The Net Zero Finance Tracker} through data gathering and dashboard design. This tool provides a comprehensive assessment of the alignment between public and private finance and the Paris Agreement goals.",
-      "Quickly adapted and learned new concepts in climate finance, showing flexibility in an unfamiliar domain.")
+        "Presented findings to various teams, providing key benchmarks for assessing the success of BBC’s social media platforms.")
+    
 ) |>
     cvevents(when = "dates", what = "role", where = "org", details = "details")
 ```
